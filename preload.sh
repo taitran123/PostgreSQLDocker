@@ -11,6 +11,6 @@ echo "log_min_error_statement = error" >> $PGDATA/postgresql.conf
 
 echo "wal_level = hot_standby" >> $PGDATA/postgresql.conf
 echo "max_wal_senders = 4" >> $PGDATA/postgresql.conf
-echo "lhot_standby = on" >> $PGDATA/postgresql.conf
+echo "hot_standby = on" >> $PGDATA/postgresql.conf
 echo "max_replication_slots = 4" >> $PGDATA/postgresql.conf
 echo "log_min_duration_statement = 1000" >> $PGDATA/postgresql.conf
